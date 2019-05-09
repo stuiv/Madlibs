@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".choose_words">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingBottom="2dp"
+        android:text="Add your own words, to finnish the story!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_Word_Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingLeft="4dp"
+            android:text="TextView"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edit_Text_Word_Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableTint="@android:color/white"
+            android:ems="10"
+            android:hint="Fill in this word!"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+             />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_Word_Filled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onWordFilledClick"
+        android:text="Continue"
+        android:textColor="@android:color/white" />
+
+    <!--<Button-->
+        <!--android:id="@+id/button_clear_words"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="Clear_Click"-->
+        <!--android:text="Clear"-->
+        <!--android:textColor="@android:color/white" />-->
+
+    <TextView
+        android:id="@+id/text_Words_Left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</LinearLayout>

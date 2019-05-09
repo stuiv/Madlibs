@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Madlibs3</string>
+    <string name="title_activity_choose_words">choose_words</string>
+</resources>
