@@ -14,3 +14,4 @@ You can choose between 5 different stories.
 
 <img src="https://github.com/stuiv/Madlibs/blob/master/images/5.png" data-canonical-src="https://github.com/stuiv/Trivia/blob/master/images/Screenshot_1558452055.png"  width="200" height="400" />
 <img src="https://github.com/stuiv/Madlibs/blob/master/images/6.png" data-canonical-src="https://github.com/stuiv/Trivia/blob/master/images/Screenshot_1558452055.png"  width="400" height="200" />
+<img src="https://github.com/stuiv/Madlibs/blob/master/images/7.png" data-canonical-src="https://github.com/stuiv/Trivia/blob/master/images/Screenshot_1558452055.png"  width="400" height="200" />
